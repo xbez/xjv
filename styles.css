@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(216, 12%, 8%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:15px ;
+    font-family: 'Overpass', sans-serif;
+}
+.cointainer , .happy{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    width: 400px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+.titile{
+    margin:15px  0px
+}
+.icon{
+    background-color: hsl(216, 20%, 22%);
+   padding: 10px;
+   border-radius: 50%;
+  
+}
+
+.pergh , .parghhappy{
+    color: hsl(216, 12%, 54%);
+    font-size: 700;
+    padding-bottom: 15px;
+    line-height: 1.5rem;
+}
+.article > button{
+    background-color:  hsl(216, 20%, 22%) ;
+    color:hsl(216, 12%, 54%);
+    font-size: 15px;
+    padding: 15px 20px;
+    border: none;
+    border-radius:50% ;
+    margin: 10px;
+
+}
+.article > button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.article > button:focus{
+    background: hsl(217, 12%, 63%);
+}
+.sumbittn{
+    margin-top : 15px;
+    background-color: hsl(25, 97%, 53%);
+    border: solid 0.5px black;
+    padding: 10px 10px;
+    width: 85%;
+    text-align: center;
+    color:#fff;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.happy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ flex-direction: column;
+}
+.title-happy{
+    
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 20%, 22%);
+    margin: 15px;
+    padding: 3px 15px;
+   font-size: 12px;
+    border-radius:10px ;
+}
+.parghhappy{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.hiiden{
+    display: none;
+}
